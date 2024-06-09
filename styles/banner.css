@@ -1,4 +1,7 @@
 .banner-higlight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-image: url(/fullture-aromas-images-1/images/fundo.png);
     background-size: contain;
     background-position: center;
@@ -6,16 +9,15 @@
     padding-bottom: 32px;
 }
 
-.banner-higlight::after{
-    content: '';
-    clear: both;
-    display: table;
-}
 
 .banner-higlight-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     background-color: #e18795;
     padding: 24px ;
-    float: left;
+    width: auto;
+    max-width: 65%;
 }
 
 .banner-higlight-title{
@@ -74,7 +76,6 @@
     height: 300px;
     border: 10px solid #f41668;
     border-radius: 50%;
-    float: right;
 
 }
 

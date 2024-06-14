@@ -7,7 +7,7 @@
     border-radius: 12px;
     margin: 0 auto;
     max-width: 50%;
-    padding-top: 12px;
+    padding: 12px 8px 0 8px;
 }
 
 .faq-details:not(:last-of-type){
@@ -25,4 +25,10 @@
 
 .faq-details-content{
     padding-top: 12px;
+}
+
+@media screen and (max-width: 650px) {
+    .faq-details{
+        max-width: initial;
+    }
 }
